@@ -93,7 +93,7 @@ if DEBUG:
 else:
     # Update database configuration with $DATABASE_URL.
     import dj_database_url
-    DATABASES = {'default': dj_database_url.config(conn_max_age=500)}
+    DATABASES = {'default': dj_database_url.config(default=os.environ["DATABASE_URL"])}
 
 
 # Password validation
