@@ -27,7 +27,6 @@ SECRET_KEY = '97xf1-00uhv-bih6^fd8&7w2m)8@(cwj$(%2-4vf^tyhnd=62l'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-
 ALLOWED_HOSTS = ['*']
 
 ADMINS = [('Ramon', 'ramonzuniga9@gmail.com')]
