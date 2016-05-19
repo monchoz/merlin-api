@@ -57,4 +57,4 @@ ENV/
 # Spyder project settings
 .spyderproject
 
-static
+staticfiles
